@@ -1,0 +1,23 @@
+.about-page-sec{
+    padding-top: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.about-page-sec::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 659px;
+    height: 538px;
+    left: -250px;
+    top: -75px;
+    background: radial-gradient(58.48% 56.31% at 72.66% 43.69%, rgba(220, 56, 99, 0.22) 0%, rgba(125, 92, 166, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 250.5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.about-page-content p{
+    font-weight: 400;
+}

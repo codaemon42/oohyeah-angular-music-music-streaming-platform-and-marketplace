@@ -1,0 +1,59 @@
+.advantage-sec{
+   position: relative;
+   overflow: hidden;
+}
+
+.adv-inner{
+    padding: 90px 0;
+}
+
+.advantage-content h2{
+    font-weight: 400;
+    color: #fff;
+    font-size: 40px;
+}
+
+.advantage-content p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.advantage-content ul{
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.advantage-content ul li{
+    margin: 10px 0;
+    background: url(../images/songicon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+
+.advantage-content .primery-btn{
+    margin-top: 20px;
+}
+
+.adv-video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+@media (max-width: 486px){
+
+    .advantage-content h2{
+        font-size: 30px;
+    }
+
+    .advantage-content p, .advantage-content ul li{
+        font-size: 14px;
+    }
+}

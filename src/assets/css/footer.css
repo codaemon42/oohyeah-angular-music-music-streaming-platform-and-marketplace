@@ -1,0 +1,76 @@
+.footer-main{
+    padding: 90px 0 130px;
+    background: #100F22;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-main::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 263.54px;
+    height: 307.89px;
+    right: -100px;
+    bottom: -50px;
+
+    background: radial-gradient(58.48% 56.31% at 72.66% 43.69%, rgba(220, 56, 99, 0.22) 0%, rgba(125, 92, 166, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 250.5px;
+    transform: matrix(0.97, -0.25, -0.25, -0.97, 0, 0);
+}
+
+.footer-content .footer-logo{
+    margin-bottom: 20px;
+}
+
+.footer-title{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+ul.footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.footer-links li a{
+    display: block;
+    font-size: 14px;
+    color: #9F9FA7;
+    margin: 12px 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul.footer-links li a:hover{
+    color: #CC3C7D;
+}
+
+.footer-copyright{
+    padding: 20px 0;
+    background: linear-gradient(89.97deg, #DC3863 26.17%, #7D50F9 101.49%);
+}
+
+p.copyright{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px){
+    .footer-content{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 486px){
+    .hero-btn a{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    
+}

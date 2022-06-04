@@ -1,0 +1,287 @@
+.login-page{
+    background: #100F22;
+}
+
+.login-area{
+    padding: 30px 0;
+}
+
+.login-form-wrap{
+    width: 446px;
+    border: 2px solid #D03D6C;
+    margin-left: auto;
+    padding: 25px;
+}
+
+.login-head{
+    margin-bottom: 40px;
+}
+
+.form-field{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-field input.form-control{
+    height: 52px;
+    border: 1px solid #C34174;
+    background: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #C8C4C4;
+    padding-left: 50px;
+}
+
+.form-field input.form-control::placeholder{
+    font-size: 14px;
+    color: #C8C4C4;
+}
+
+.form-field input.form-control:focus{
+    box-shadow: none;
+}
+
+.form-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    color: #C8C4C4;
+}
+
+
+.remember-area{
+    position: relative;
+}
+
+
+.remember-area input{
+    position: absolute;
+    left: -1000000px;
+}
+
+.remember-area label{
+    display: block;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.remember-area label a{
+    color: #7D5CA6;
+    text-decoration: none;
+}
+
+.remember-area span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #7D5CA6;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    border-radius: 5px;
+}
+
+.remember-area span::before{
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: none;
+}
+
+.form-bottom-field{
+    margin-bottom: 30px;
+}
+
+.remember-area input:checked ~ span::before{
+    display: block;
+}
+
+a.forgot-link{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-submit-btn{
+    display: block;
+    width: 100%;
+    background: linear-gradient(149.14deg, #DC3863 -14.46%, #7D5CA6 114.32%);
+    height: 52px;
+    border: 0 none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.form-submit-btn:hover{
+    background: linear-gradient(149.14deg, #7D5CA6 -14.46%, #DC3863 114.32%);
+}
+
+.login-devider{
+    margin: 40px 0 40px;
+    border-top: 2px solid #fff;
+    position: relative;
+}
+
+.login-devider span{
+    color: #fff;
+    display: block;
+    width: 50px;
+    background: #100F22;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: -10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.api-login-btn{
+    display: block;
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 0 none;
+    background: #2D9CDB;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.api-login-btn i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #2D9CDB;
+    margin-right: 5px;
+}
+
+.google-login{
+    background: #FF451C;
+}
+
+.api-login-btn.google-login i{
+    color: #FF451C;
+}
+
+
+.twitter-login{
+    background: #56CCF2;
+}
+
+.api-login-btn.twitter-login i{
+    color: #56CCF2;
+}
+
+p.singup-link{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 40px 0 15px;
+}
+
+p.singup-link a{
+    display: inline-block;
+    font-weight: 600;
+    color: #C04276;
+}
+
+.form-radio-field{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-radio-field input{
+    position: absolute;
+    left: -10000000px;
+}
+
+.form-radio-field label{
+    display: block;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.form-radio-field span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #7D5CA6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.form-radio-field span::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: #7D5CA6;
+    border-radius: 50%;
+    display: none;
+}
+
+.form-radio-field input:checked ~ span::before{
+    display: block;
+}
+
+.login-head p{
+    color: #fff;
+}
+
+
+@media (max-width: 991px){
+    .login-logo{
+        margin-bottom: 50px;
+    }
+
+    .login-form-wrap{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 486px){
+    .login-form-wrap{
+        width: 100%;
+    }
+
+    .form-bottom-field{
+        display: block !important;
+    }
+
+    .forgot-link{
+        margin-top: 20px;
+        display: block;
+    }
+}

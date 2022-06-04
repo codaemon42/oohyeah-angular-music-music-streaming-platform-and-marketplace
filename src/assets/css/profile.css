@@ -1,0 +1,89 @@
+.profile-sec{
+    background: #100F22;
+    padding: 125px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-sec::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 659px;
+    height: 538px;
+    top: 20px;
+    left: -340px;
+    background: radial-gradient(58.48% 56.31% at 72.66% 43.69%, rgba(220, 56, 99, 0.22) 0%, rgba(125, 92, 166, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 250.5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.profile-sec::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 659px;
+    height: 538px;
+    bottom: -100px;
+    right: -300px;
+    background: radial-gradient(58.48% 56.31% at 72.66% 43.69%, rgba(220, 56, 99, 0.22) 0%, rgba(125, 92, 166, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 250.5px;
+    transform: matrix(0.97, -0.25, -0.25, -0.97, 0, 0);
+}
+
+.profile-content{
+    width: 280px;
+    text-align: center;
+    position: relative;
+}
+
+.profile-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px 0 20px;
+}
+
+.profile-content-wrap{
+    position: relative;
+}
+
+.profile-content span.pro-num{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 40px;
+    background: linear-gradient(180deg, #7D5CA6 0%, #DC3863 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent
+}
+
+.pc-indicator-1, .pc-indicator-2{
+    position: absolute;
+    top: 0;
+}
+
+.pc-indicator-1{
+    left: 220px;
+}
+
+.pc-indicator-2{
+    right: 300px;
+}
+
+
+@media (max-width: 991px){
+    .pc-indicator-1, .pc-indicator-2{
+        display: none;
+    }
+
+    .profile-content{
+        margin: 0 auto 40px;
+    }
+}
+
+@media (max-width: 486px){
+
+    
+}
